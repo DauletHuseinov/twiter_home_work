@@ -1,0 +1,74 @@
+[
+{
+    "model": "sessions.session",
+    "pk": "b2jtlia05wnu6cwycjrxpxlf1mxt0wtf",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hBghhZcuvcMBIZBqoYmpV0Z765NutDtf-_9lwhxW2vYOi9hyuIstDj9binSg9sO8j222yxpbusyJbkr8qBdXufMz8vh_h3U2Ou3tjqBikCQPGC2lhWiK4apmOK8HogNaoV-cADAgKRSGXMZtfLWobfi_QHKgzbo:1pI4fX:MDbvGISi7-qTlP-Nxt-HmTaYMF_ZLgFU5WVp6tiPnDQ",
+        "expire_date": "2023-02-01T09:23:43.738Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "fkqi5eibt8orqiijbz2ehq1hvc5gnhmr",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSHymIG6dN9vIJQZpGogKe3K-O_apAvd3nPOfYkQt7WErfMSZhIXocXpd5tienDdAd1jvTWZWl2XeZK7Ig_a5diIn9fD_TsosZdvjUhKg2bGRMgaODszqGytsy5R9jZ6Tga8Ntp4PCM5iOwHAsxZgUvi_QHbTTea:1pIPXM:Pr2_rFvauNAL3xGPsLi-mCwkLSVWB3fG35fHK04CpiU",
+        "expire_date": "2023-02-02T07:40:40.641Z"
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$mVSxPzu7VTtIGcydJlX3Ry$1OY8rqVKMVuniDcMvs7n5f/6q5wuCKJx5GoOJSMtCDM=",
+        "last_login": "2023-01-18T09:23:43.732Z",
+        "is_superuser": false,
+        "username": "ss",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-01-18T09:23:36.249Z",
+        "patronymic": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$kgoR9h1NsCHToGfH4cJo3u$BQMWAOQHTRkrT1gb764c2VcVdMYhW4lApWgNy40Qhyg=",
+        "last_login": "2023-01-19T07:40:40.612Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-01-19T07:40:26.364Z",
+        "patronymic": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.profile",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "is_author": true
+    }
+},
+{
+    "model": "posts.tweet",
+    "pk": 1,
+    "fields": {
+        "text": "Сообщение",
+        "created_at": "2023-01-18T09:23:57.298Z",
+        "updated_at": "2023-01-18T09:23:57.298Z",
+        "profile": 1
+    }
+}
+]
